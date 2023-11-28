@@ -1,7 +1,7 @@
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import React from "react";
-import classes from "../styles.module.css";
+import * as classes from "../styles.module.css";
 export default function Form() {
     React.useEffect(()=>{
         console.log(formikForm.errors)

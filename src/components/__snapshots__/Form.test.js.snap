@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders MyComponent correctly 1`] = `
+<DocumentFragment>
+  <form
+    class="container"
+  >
+    <div
+      class="h1"
+    >
+      Login Form
+    </div>
+    <div>
+      <label>
+        ID:
+      </label>
+      <input
+        aria-label="ID"
+        class=""
+        name="id"
+        placeholder="type your id..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <label>
+        Password:
+      </label>
+      <input
+        aria-label="Password"
+        class=""
+        name="password"
+        placeholder="type your password..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div>
+      <button
+        aria-label="LoginButton"
+        type="submit"
+      >
+        LogIn
+      </button>
+    </div>
+  </form>
+</DocumentFragment>
+`;
